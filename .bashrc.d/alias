@@ -1,0 +1,7 @@
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hideFiles='defaults write com.apple.finder AppleShowFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+alias composer='/usr/local/bin/composer/composer.phar'
+alias bashed='cd ~/.bashrc.d'
+alias sandbox='cd ~/Sites/sandbox'
+alias grunter='git clone git@github.com:puginabox/front-end-project-starter.git && mv front-end-project-starter avatar && cd avatar && bower install  && sudo npm install && grunt'
+alias angularized='git clone git@github.com:puginabox/angular-starter.git && cd angular-starter && bower install  && sudo npm install && grunt'
